@@ -54,9 +54,9 @@ public class Main {
         // task 9
         System.out.println("Task 9");
         int save = 29000;
-        int  savingsAmount= 0;
+        int savingsAmount = 0;
         for (int i = 1; i <= 12; i++) {
-            savingsAmount = savingsAmount + savingsAmount/100;
+            savingsAmount = savingsAmount + savingsAmount / 100;
             savingsAmount = savingsAmount + save;
             System.out.println("Месяц " + i + " Сумма накоплений равна " + savingsAmount);
         }
@@ -68,4 +68,5 @@ public class Main {
             System.out.println(number + "*" + j + "=" + number * j);
         }
 
-}}
+    }
+}
